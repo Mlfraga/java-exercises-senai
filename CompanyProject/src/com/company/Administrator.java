@@ -9,8 +9,6 @@ public class Administrator extends Employee {
 
     public void setAidCost(double aidCost) {
         this.aidCost = aidCost;
-
-        setGrossSalary(this.getGrossSalary() + aidCost);
     }
 
     @Override
