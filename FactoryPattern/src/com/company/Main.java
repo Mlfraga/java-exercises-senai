@@ -12,7 +12,7 @@ public class Main {
     System.out.println("Digite o nome do produto");
     String name = input.nextLine();
 
-	System.out.println("Digite o preço do produto");
+    System.out.println("Digite o preço do produto");
     double price = input.nextDouble();
 
     String calculationType = "HALF";
